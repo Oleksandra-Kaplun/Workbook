@@ -1,0 +1,78 @@
+*{
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+	transition-property: background-color, border-color, color, opacity;
+	transition-timing-function: linear;
+}
+html{
+	background: #fff;
+	min-width: 300px;
+	font-family: Uni Sans;
+}
+img{
+	max-width: 100%;
+	margin-bottom: -6px;
+}
+body{
+	font-size: 17px;
+	line-height: 1.4; 
+	text-align: center;
+	padding: 0px 0px;
+}
+main{
+	display: flex;
+	min-height: 100px;
+}
+footer{
+	height: 50px;
+	margin-top: 150px;
+	background-color: #688fd2;
+	clear: both;
+	padding-top: 15px;
+	color: #fff;
+	text-shadow: 2px 1px #475F88;
+	font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+.header{
+	display: inline-block;
+	position: relative;
+	padding: 8px;
+	background: #689cd2;
+	color: #fff;
+	font-family: Uni Sans;
+	text-align: center; 
+	width: 100%;
+}
+.header_logo{
+	align-items: center;
+	font-weight: bold;
+	font-size: 35px;
+	text-shadow: 2px 1px #475F88;
+}
+.header_section_img{
+	position: relative;
+	background-color: #fff;
+	max-width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	box-shadow: 3px 3px 19px rgba(0,0,0,0.9);
+}
+.header_section_text{
+	position: absolute;
+	min-width: 300px;
+	max-width: 500px;
+	min-height: 155px;
+	color: #fff;
+	text-shadow: 2px 2px #111;
+	font-size: 20px;
+	font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+	top: 18%;
+	left: 30%;
+	transform: translateX(-26%);
+	-moz-transform: translateX(-26%); /* for Firefox */
+    -ms-transform: translateX(-26%); /* for IE */
+    -webkit-transform: translateX(-26%); /* for Safari, Chrome, iOS */
+    -o-transform: translateX(-26%); /* for Opera */
+}
+
