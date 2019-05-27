@@ -75,4 +75,31 @@ footer{
     -webkit-transform: translateX(-26%); /* for Safari, Chrome, iOS */
     -o-transform: translateX(-26%); /* for Opera */
 }
-
+.container{
+	max-width: 1100px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	padding: 1.5%;
+	box-sizing: border-box;
+}
+.card{
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	background: #fefff9;
+	color: #363636;
+	text-decoration: none;
+	box-shadow: rgba(0, 0, 0, 0.19) 0 0 8px 0;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.card span{
+	display: block;
+}
