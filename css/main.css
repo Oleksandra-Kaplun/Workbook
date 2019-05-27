@@ -97,9 +97,42 @@ footer{
 	text-decoration: none;
 	box-shadow: rgba(0, 0, 0, 0.19) 0 0 8px 0;
 	border-radius: 4px;
-	margin-right: 10px;
+	margin-right: 50px;
 	margin-left: 10px;
 }
 .card span{
 	display: block;
+}
+.card .card-header{
+	position: relative;
+	height: 275px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.card .card-header:hover, .card .card-header:focus{
+	background-color: rgba(255, 255, 255, 0);
+}
+.card .card-title{
+	background: rgba(104, 156, 210, 0.85);
+	padding: 3.5% 0 2.5% 0;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.card:hover .card-title, .card:focus .card-title{
+	background: rgba(104, 156, 210, 0.95);
+}
+.card .card-title h3{
+	font-size: 1.2em;
+	line-height: 1.2;
+	padding: 0 10.5%;
+	margin: 0;
+}
+.card .card-summary{
+	padding: 5% 5% 3% 5%;
+}
+.card:hover, .card:focus{
+	background: #F5f5f5;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
 }
